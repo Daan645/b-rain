@@ -23,6 +23,7 @@ body{
     -webkit-animation: rotate 20s infinite linear;
             animation: rotate 20s infinite linear;
     z-index: -1;
+    pointer-events: none;
   }
   .plane.main .circle {
     width: 120px;
