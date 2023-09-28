@@ -38,6 +38,7 @@ p{
 }
 
 /* end of main styling */
+
 /* HEADER /*
 
 
@@ -116,14 +117,13 @@ main article section img{
 
 /* Set a background color */
 body {
-    background-color: #474e5d;
     font-family: Helvetica, sans-serif;
     margin: 0;
 }
 
-/* navbar */
-
-
+.wrapper{
+    background: #40D4FA;
+}
 
 /* The actual timeline (the vertical ruler) */
 .timeline {
@@ -137,7 +137,7 @@ body {
     content: '';
     position: absolute;
     width: 6px;
-    background-color: white;
+    background-color: #F04443;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -248,6 +248,65 @@ body {
     .right {
         left: 0%;
     }
+}
+
+/* artikelen review */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.artikelen-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.artikelen-box {
+    flex: 0 0 calc(33.33% - 20px);
+    background-color: #ffffff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.artikelen-box:hover {
+    transform: translateY(-5px);
+}
+
+.artikelen-details {
+    padding: 20px;
+}
+
+.artikelen-details h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333; 
+}
+
+.artikelen-details p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #555; 
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+.rating-ster {
+    color: #ffd900; 
+    margin-right: 5px;
 }
 
 /* FOOTER /*
