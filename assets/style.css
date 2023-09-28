@@ -10,8 +10,11 @@
 
 /* Set a background color */
 body {
-    background-color: #474e5d;
     font-family: Helvetica, sans-serif;
+}
+
+.wrapper{
+    background: #40D4FA;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -26,7 +29,7 @@ body {
     content: '';
     position: absolute;
     width: 6px;
-    background-color: white;
+    background-color: #F04443;
     top: 0;
     bottom: 0;
     left: 50%;
