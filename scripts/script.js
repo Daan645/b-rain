@@ -10,3 +10,7 @@ document.addEventListener('mousemove', (e) => {
     mouseFollow.style.left = `${x}px`;
  })
  
+
+ function toggleReview(element) {
+    element.classList.toggle("active");
+}
