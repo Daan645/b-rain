@@ -401,23 +401,19 @@ footer{
 /* green footer */
 /* 1. achter grond kleur vanuit root groen
    2. grid colomn van 1 tot 2
-   3. hoogte van 4em
    */
 .footer-grid7{
     background-color: var(--green);
     grid-column: 1 / 2;
-    height: 4em;
 }
 
 /* 1. achter grond kleur vanuit root groen
    2. grid colomn van 2 tot 10
-   3.hoogte van 4em
    4. tekst kleur vanuit root wit
    */
 .footer-grid8{
     background-color: var(--green);
     grid-column: 2 /10;
-    height: 4em;
     color: var(--white);
 }
 
