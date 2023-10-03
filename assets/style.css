@@ -538,19 +538,19 @@ body {
 /* link 
 1. text decoratie weg gehaald(lijntjes onder de list)
 2. color wit gegeven vanuit de root */
-li a {
+li a{
     text-decoration: none;
     color: var(--white);
 }
 
 /* list tekst een spacing gegeven van 5 px */
-li {
+li{
     margin-bottom: 5px;
 }
 
 /* 1. punten weg gehaald
 2. text grote van 16px */
-ul {
+ul{
     list-style-type: none;
     font-size: 16px;
 }
@@ -558,34 +558,35 @@ ul {
 /* 1. footer in grid geplaatst 
    2. grid colomen gemaakt van links naar rechts van 9 
    3. grid rijen gemaakt van boven naar beneden van 2 */
-footer {
+footer{
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    
 }
 
 /* 1. achter grond kleur vanuit root blauw
    2. grid colomn van 1 tot 2
    3. hoogte van 10em*/
-.footer-grid1 {
+.footer-grid1{
     background-color: var(--blue);
-    grid-column: 1 / 2;
+    grid-column: 1 / 2;    
     height: 10em;
 }
 
 /* 1. achter grond kleur vanuit root blauw
    2. grid colomn van 2 tot 3
    */
-.footer-grid2 {
+.footer-grid2{
     background-color: var(--blue);
     color: var(--white);
-    grid-column: 2/ 3;
+    grid-column: 2/ 3;    
 }
 
 /* 1. achter grond kleur vanuit root blauw
    2. grid colomn van 3 tot
    */
-.footer-grid3 {
+.footer-grid3{
     background-color: var(--blue);
     grid-column: 3 / 4;
 }
@@ -593,7 +594,7 @@ footer {
 /* 1. achter grond kleur vanuit root blauw
    2. grid colomn van 4 tot 5
    */
-.footer-grid4 {
+.footer-grid4{
     background-color: var(--blue);
     grid-column: 4 / 5;
 }
@@ -601,7 +602,7 @@ footer {
 /* 1. achter grond kleur vanuit root blauw
    2. grid colomn van 5 tot 6
    */
-.footer-grid5 {
+.footer-grid5{
     background-color: var(--blue);
     grid-column: 5 / 6;
 }
@@ -609,7 +610,7 @@ footer {
 /* 1. achter grond kleur vanuit root blauw
    2. grid colomn van 6 tot 10
    */
-.footer-grid6 {
+.footer-grid6{
     background-color: var(--blue);
     grid-column: 6 / 10;
 }
@@ -618,7 +619,7 @@ footer {
 /* 1. achter grond kleur vanuit root groen
    2. grid colomn van 1 tot 2
    */
-.footer-grid7 {
+.footer-grid7{
     background-color: var(--green);
     grid-column: 1 / 2;
 }
@@ -627,9 +628,13 @@ footer {
    2. grid colomn van 2 tot 10
    4. tekst kleur vanuit root wit
    */
-
+.footer-grid8{
+    background-color: var(--green);
+    grid-column: 2 /10;
+    color: var(--white);
+}
 
 /* 1. footer logo tekst met een grote van 36px */
-.footer-logo {
+.footer-logo{
     font-size: 36px;
 }
