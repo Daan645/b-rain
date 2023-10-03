@@ -48,6 +48,10 @@ p {
 /* HEADER */
 header{
     background-color: var(--white);
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 header article{
     margin: 0 auto;
@@ -272,7 +276,12 @@ header nav a:hover{
 
 }
 /* end of header css */
-/* MAIN /*
+/* MAIN */
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 /* article  jesse's changes*/
 .algemeen {
@@ -280,6 +289,7 @@ header nav a:hover{
     width: 100%;
     display: flex;
     height: 400px;
+    padding: 64px 0px;
 }
 
 .algemeen div {
@@ -295,7 +305,7 @@ header nav a:hover{
 }
 
 .algemeen h2 {
-    color: #41d5fa;
+    color: var(--blue);
 }
 
 .algemeen h3 {
@@ -304,28 +314,32 @@ header nav a:hover{
 }
 
 .algemeen p {
-    max-width: 40%;
+    max-width: 60%;
     padding-bottom: 15px;
 }
 
 button {
     margin-right: 20px;
+    transition: ease-out 0.1s;
+}
+button:hover {
+    cursor: pointer;
+    transform: scale(103%);
+    transition: ease-in 0.1s;
 }
 
 .primary {
     background-color: var(--white);
     border-radius: 5px;
     border: none;
-    box-shadow: #b6b6b6 0px 0px 10px;
-    width: 120px;
-    height: 40px;
+    box-shadow: #b6b6b661 0px 0px 10px;
+    padding: 12px 32px;
 }
 
 .secondary {
     background-color: var(--green);
-    width: 120px;
-    height: 40px;
-    box-shadow: #b6b6b6 0px 0px 10px;
+    padding: 12px 32px;
+    box-shadow: #b6b6b661 0px 0px 10px;
     border-radius: 5px;
     border: none;
     color: var(--white);
@@ -357,6 +371,7 @@ body {
 
 .wrapper {
     background: #40d4fa;
+    margin: 2em 1em;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -542,20 +557,7 @@ body {
 /* Algemene artikelen sectie */
 
 .algemeen-artikelen {
-
-    background-color: #fff;
-
-    padding: 20px;
-
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-
-    transition: transform 0.3s ease-in-out; /* Voeg margin toe onder de algemene artikelen */
-
-    margin-bottom: 4px;
-
-    border-bottom-right-radius: 10px;
-
-    border-bottom-left-radius: 10px;
+    padding: 2em 1em;
 
 }
 
@@ -593,12 +595,7 @@ body {
 
     color: #333;
 
-    width: 120px;
-
-    height: 40px;
-
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-
+   
     border-radius: 5px;
 
     border: none;
@@ -640,6 +637,8 @@ body {
 
     justify-content: space-between;
 
+    padding: 0px 6px 64px 6px;
+
 
 }
 
@@ -650,7 +649,7 @@ body {
 
     background-color: #fff;
 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
     border-radius: 5px;
 
