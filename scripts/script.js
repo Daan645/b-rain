@@ -15,3 +15,16 @@ document.addEventListener('mousemove', (e) => {
     element.classList.toggle("active");
 }
 
+
+
+// Daan: visibility change for timeline cards
+function myFunction() {
+    var x = document.getElementById("timelineCards");
+    var computedStyle = window.getComputedStyle(x);
+    if (computedStyle.visibility === "hidden" || computedStyle.visibility === "visible") {
+        x.style.visibility = "visible";
+    } else {
+        x.style.visibility = "visible";
+    }
+}
+
