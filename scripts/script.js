@@ -11,10 +11,9 @@
 //  })
 
 
- function toggleReview(element) {
+function toggleReview(element) {
     element.classList.toggle("active");
 }
-
 
 
 // Voeg een klikgebeurtenis toe aan de cirkels (containers)
@@ -30,6 +29,7 @@ containers.forEach(container => {
         }
     });
 });
+
 
 
 
