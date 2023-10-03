@@ -379,7 +379,9 @@ body {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
-    background-image: url("bergje.png");
+    background-image: url("bergje2.png");
+    background-position: center;
+    background-size: cover;
 }
 
 /* The actual timeline (the vertical ruler) */
