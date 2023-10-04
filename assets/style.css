@@ -80,8 +80,13 @@ header nav a{
     font-size: 16px;
     font-weight: 500;
 }
+
+
 header nav a:hover{
    color: var(--blue);
+   border-bottom: #40d4fa solid 2px;
+   transition: 0.2s;
+   padding-bottom: 10px;
 }
 
         /* dropwdown */
@@ -285,7 +290,7 @@ header nav a:hover{
 .algemeen div {
     width: 50%;
     margin: auto;
-    padding: 0 16px;
+    padding: 0 16px 0 100px;
 }
 
 .algemeen img {
