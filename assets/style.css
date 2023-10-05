@@ -904,3 +904,7 @@ footer {
     background-color: var(--darkgrey);
     color: var(--white);
 }
+
+.dark-mode-head a{
+  color: var(--white);
+}
