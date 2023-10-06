@@ -1132,6 +1132,28 @@ footer{
     color: var(--white);
   }
 
+.dark-mode-body .content{
+  background-color: var(--black);
+}
+
+.dark-mode-body .content h2 p{
+    color: var(--white);
+  }
+
+  .dark-mode-body .content h2{
+    color: var(--white);
+  }
+
+  .dark-mode-body .right::before{
+    border-color: transparent var(--black) transparent transparent;
+
+  }
+
+  .dark-mode-body .left::before{
+    border-color: transparent transparent transparent var(--black);
+
+  }
+
 .dark-mode-head{
     background-color: var(--darkgrey);
     color: var(--white);
