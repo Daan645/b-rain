@@ -134,6 +134,9 @@ header nav a:hover {
   header article {
     column-gap: 0px;
   }
+  .dark-mode-head li{
+    background-color: var(--darkgrey) !important;
+  }
 }
 
 /* Hamburger styling */
@@ -400,7 +403,7 @@ main {
 }
 
 .algemeen p {
-  max-width: 60%;
+  /* max-width: 60%; */
   padding-bottom: 15px;
 }
 
