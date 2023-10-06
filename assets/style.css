@@ -801,12 +801,17 @@ body {
 
 /* blue footer */
 
-/* link
 
-1. text decoratie weg gehaald(lijntjes onder de list)
+footer > section{
+  padding: 10px;
+  line-height: 1.3em;
+}
+
+/* 
+
+1. link text decoratie weg gehaald(lijntjes onder de list)
 
 2. color wit gegeven vanuit de root */
-
 li a{
 
   text-decoration: none;
@@ -826,7 +831,6 @@ li{
 }
 
 
-
 /* 1. punten weg gehaald
 
 2. text grote van 16px */
@@ -839,6 +843,10 @@ ul{
 
 }
 
+
+
+/*  1. titel/subtitel bij footer een element van strong geplaatst
+    2. met color van wit */
 strong{
 
   font-weight: bold;
