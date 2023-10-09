@@ -797,14 +797,25 @@ body {
 
 **************************************************************************************************************/
 
-/* FOOTER */
-
-/* blue footer */
-
-
-footer > section{
-  padding: 10px;
+footer{
+  padding-left: 15em;
+  padding-top: 10px;
+  background-color: var(--blue);
+  color: white;
   line-height: 1.3em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+  'footer footer footer footer'
+  ;
+}
+
+.copyright{
+  background-color: var(--green);
+  color: white;
+  height: 2em;
+  padding-left: 15em;
 }
 
 /* 
@@ -844,219 +855,15 @@ ul{
 }
 
 
-
 /*  1. titel/subtitel bij footer een element van strong geplaatst
     2. met color van wit */
-strong{
+ strong{
 
-  font-weight: bold;
-
-  color: var(--white);
-
+      font-weight: bold;
+    
+      color: var(--white);
+    
 } 
-
-
-/* 1. footer in grid geplaatst
-
- 2. grid colomen gemaakt van links naar rechts van 9
-
- 3. grid rijen gemaakt van boven naar beneden van 2
-
- 4. hoogte van 225 pixel  */
-
-footer{
-
-  display: grid;
-
-  grid-template-columns: repeat(9, 1fr);
-
-  grid-template-rows: repeat(2, 1fr);
-
-  height: 225px;
-
-}
-
-
-
-/* 1. achter grond kleur vanuit root blauw
-
- 2. grid colomn van 1 tot 2
-
- 3. hoogte van 10em*/
-
-.footer-grid1{
-
-  background-color: var(--blue);
-
-  grid-column: 1 / 2;    
-
-  height: 10em;
-
-}
-
-
-
-/* 1. achter grond kleur vanuit root blauw
-
- 2. grid colomn van 2 tot 3
-
- */
-
-.footer-grid2{
-
-  background-color: var(--blue);
-
-  color: var(--white);
-
-  grid-column: 2/ 3;    
-
-}
-
-
-
-/* 1. achter grond kleur vanuit root blauw
-
- 2. grid colomn van 3 tot
-
- */
-
-.footer-grid3{
-
-  background-color: var(--blue);
-
-  grid-column: 3 / 4;
-
-}
-
-
-
-/* 1. achter grond kleur vanuit root blauw
-
- 2. grid colomn van 4 tot 5
-
- */
-
-.footer-grid4{
-
-  background-color: var(--blue);
-
-  grid-column: 4 / 5;
-
-}
-
-
-
-/* 1. achter grond kleur vanuit root blauw
-
- 2. grid colomn van 5 tot 6
-
- */
-
-.footer-grid5{
-
-  background-color: var(--blue);
-
-  grid-column: 5 / 6;
-
-}
-
-
-
-/* 1. achter grond kleur vanuit root blauw
-
- 2. grid colomn van 6 tot 10
-
- */
-
-.footer-grid6{
-
-  background-color: var(--blue);
-
-  grid-column: 6 / 10;
-
-  padding: 20px;
-
-  justify-content: center;
-
-}
-
-
-
-/* green footer */
-
-/* 1. achter grond kleur vanuit root groen
-
- 2. grid colomn van 1 tot 2
-
- */
-
-.footer-grid7{
-
-  background-color: var(--green);
-
-  grid-column: 1 / 2;
-
-}
-
-
-
-/* 1. achter grond kleur vanuit root groen
-
- 2. grid colomn van 2 tot 4
-
- 4. tekst kleur vanuit root wit
-
- */
-
-.footer-grid8{
-
-  background-color: var(--green);
-
-  grid-column: 2 / 4;
-
-  color: var(--white);
-
-}
-
-
-
-/* 1. achter grond kleur vanuit root groen
-
- 2. grid colomn van 4 tot 6
-
- 4. tekst kleur vanuit root wit
-
- */
-
-.footer-grid9{
-
-  background-color: var(--green);
-
-  grid-column: 4 / 6;
-
-  color: var(--white);
-
-}
-
-
-
-/* 1. achter grond kleur vanuit root groen
-
- 2. grid colomn van 6 tot 10
-
- 4. tekst kleur vanuit root wit
-
- */
-
-.footer-grid10{
-
-  background-color: var(--green);
-
-  grid-column: 6 / 10;
-
-  color: var(--white);
-
-}
 
 /* social link LinkedIn */
 
@@ -1074,7 +881,7 @@ footer{
 
  7. border radius van 10% om de punten van de vierkaant beetje ovaal te maken*/
 
-.fa {
+ .fa {
 
   padding: 7px;
 
@@ -1091,7 +898,6 @@ footer{
   border-radius: 10%;
 
 }
-
 
 
 /* Linked in hover effect */
@@ -1130,8 +936,27 @@ footer{
 
 }
 
+@media only screen and (max-width: 600px) {
 
+  footer{
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-rows: repeat(2,1fr);
+  }
+  
+  h1{
+    line-height: 1.2;
+  }
+}
 
+/*************************************************************************************************************
+
+                                                                                                             *
+
+                                        Jesse                                                                *
+
+                                                                                                             *
+
+**************************************************************************************************************/
 
 /* dark theme */
 
