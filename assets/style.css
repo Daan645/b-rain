@@ -286,7 +286,7 @@ menu a:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: var(--blue);
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -298,17 +298,17 @@ menu a:hover {
   width: 13px;
   left: 2px;
   bottom: 2px;
-  background-color: white;
+  background-color: rgb(250 255 0);
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
 input:checked + .slider {
-  background-color: #2196f3;
+  background-color: #004177;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196f3;
+  box-shadow: 0 0 1px #004177;
 }
 
 input:checked + .slider:before {
@@ -963,35 +963,43 @@ ul{
 .dark-mode-body {
     background-color: var(--black);
     color: var(--white);
+    transition: 0.5s;
   }
 
 .dark-mode-body .content{
   background-color: var(--black);
+  transition: 0.5s;
 }
 
 .dark-mode-body .content h2 p{
     color: var(--white);
+    transition: 0.5s;
   }
 
   .dark-mode-body .content h2{
     color: var(--white);
+    transition: 0.5s;
   }
 
   .dark-mode-body .right::before{
     border-color: transparent var(--black) transparent transparent;
+    transition: 0.5s;
 
   }
 
   .dark-mode-body .left::before{
     border-color: transparent transparent transparent var(--black);
+    transition: 0.5s;
 
   }
 
 .dark-mode-head{
     background-color: var(--darkgrey);
     color: var(--white);
+    transition: 0.5s;
 }
 
 .dark-mode-head a{
   color: var(--white);
+  transition: 0.5s;
 }
