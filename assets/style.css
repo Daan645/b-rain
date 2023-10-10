@@ -796,7 +796,15 @@ body {
                                                                                                              *
 
 **************************************************************************************************************/
-
+/* 1. padding-left van 15 em gegeven aan de footer
+   2. padding-top van 15px ruimte tussen text en grid section
+   3. background van blauw
+   4. tekst kleur wit
+   5. line-height tekst van 1.3em
+   6. content in grid gezet
+   7. grid met met kolomen van 1fraction
+   8. 1 grid row
+   9.grid template areas met data van footer  */
 footer{
   padding-left: 15em;
   padding-top: 15px;
@@ -811,6 +819,11 @@ footer{
   ;
 }
 
+/* 1. background
+   2. tekst color wit
+   3. height van 2em
+   4. padding-left 15em
+   5. padding-top*/
 .copyright{
   background-color: var(--green);
   color: white;
@@ -920,13 +933,12 @@ ul{
      2. linked in text een wit kleur gegeven  */
 
 .fa-linkedin {
-
+  
   background: #007bb5;
 
   color: var(--white);
 
 }
-
 
 
 /* 1. footer logo tekst met een grote van 36px */
@@ -937,10 +949,20 @@ ul{
 
 }
 
+/* media query voor mobiel */
 @media only screen and (max-width: 390px) {
 
+  /*1. padding-left van 2em
+    2. padding-top van 15px
+    3. line-height 1.3em
+    4. display grid
+    5. grid template kolom 1, 0.5fractions
+    6. grid template rows van 3, 0.5fractions 
+    7. grid-gap 10px
+    8. content gecentreerd
+    9. template areas van h1 en section */
   footer{
-    padding-left: 3em;
+    padding-left: 2em;
     padding-top: 15px;
     line-height: 1.3em;
     display: grid;
@@ -948,7 +970,6 @@ ul{
     grid-template-rows: 0.5fr 0.5fr 0.5fr;
     grid-gap: 10px;
     justify-content: center;
-    /* justify-items: center; */
     grid-template-areas: 
     'h1'
     'section'
@@ -957,6 +978,11 @@ ul{
   
   }
 
+  /* 1. achtergrond kleur van groen
+     2. tekst kleur wit
+     3. height van 2em
+     4. padding-left van 1em
+     5.padding-top van 5px*/
   .copyright{
     background-color: var(--green);
     color: white;
@@ -964,6 +990,17 @@ ul{
     padding-left: 1em;
     padding-top: 5px;
   }
+
+
+  /* 1. tekst align center
+     2. padding-left van 0
+     3. padding-right van 3em */
+  .social{
+    text-align: center;
+    padding-left: 0;
+   padding-right: 3em;
+  }
+  
 }
 
 
