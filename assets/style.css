@@ -970,7 +970,7 @@ titel/subtitel bij footer een element van strong geplaatst
 }
 
 /* media query voor mobiel */
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 768px) {
 
   /*1. padding-left van 2em
     2. padding-top van 15px
