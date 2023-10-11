@@ -1,7 +1,7 @@
 /* main styling */
 :root {
-  --white: #ffffff;
-  --black: #000;
+  --white: #fff;/*was #ffffff*/
+  --black: #000;/* was #000000*/
   --blue: #41d5fa;
   --green: #3ade76;
   --red: #fa611f;
