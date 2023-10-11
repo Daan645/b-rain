@@ -9,9 +9,14 @@
 }
 
 * {
-  font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
   margin: 0;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
 }
 
 h1 {
@@ -23,12 +28,14 @@ h1 {
 h2 {
   font-size: 2.3em;
   font-weight: 600;
+  padding-bottom: 0.5em;
   margin: 0;
 }
 
 h3 {
   font-size: 1.8em;
   font-weight: 600;
+  padding-bottom: 0.5em;
   margin: 0;
 }
 
@@ -42,6 +49,7 @@ p {
   font-size: 1em;
   font-weight: 400;
   margin: 0;
+  padding-bottom: 0.5em;
 }
 
 /* end of main styling */
@@ -410,7 +418,9 @@ main {
 button {
   margin-right: 20px;
   transition: ease-out 0.1s;
+  font-size: inherit;
 }
+
 button:hover {
   cursor: pointer;
   transform: scale(103%);
@@ -808,6 +818,7 @@ body {
 footer{
   padding-left: 15em;
   padding-top: 15px;
+  padding-bottom: 0.5em;
   background-color: var(--blue);
   color: white;
   line-height: 1.3em;
@@ -851,7 +862,7 @@ li a{
 
 li{
 
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 
 }
 
@@ -868,8 +879,17 @@ ul{
 
 }
 
+/* 1.hover color van groen
+   2. kleur transitie van 0.2 seconde
+   3. onderste padding van  */
+footer a:hover {
+  /* border-bottom: 1px solid var(--green); */
+  transition: 0.2s;
+  text-decoration: underline;
+}
 
-/*  1. titel/subtitel bij footer een element van strong geplaatst
+/*  1. 
+titel/subtitel bij footer een element van strong geplaatst
     2. met color van wit */
  strong{
 
