@@ -1,5 +1,9 @@
 # b-rain
 
+Schermen
+
+https://github.com/Daan645/b-rain
+
 Code Uitleg
 
 We hebben HTML5, CSS en JavaScript gebruikt als de drie essentiële bouwstenen van onze webontwikkelingsprojecten om een rijke, interactieve en moderne webervaring te bieden aan onze gebruikers. Hier is waarom en hoe we deze technologieën hebben ingezet:
