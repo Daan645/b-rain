@@ -1,10 +1,20 @@
 # b-rain
+**User story**
 
-Schermen
+De gebruiker komt via diverse kanalen op het platform terecht, 
+dit kunnen zowel inversteerds als normale bezoekers zijn.
+
+Hierna is het de bedoeling dat de bezoeker een duidelijke impressie krijgt van het product.
+Dit wordt gerealisseerd door een timeline met info over het product.
+
+Het doel van de gebruiker is uiteindelijk om ge-informeerd te worden over het product.
+Ook is het doel hiervan om vervolgens in contact te komen.
+
+**Schermen**
 
 https://github.com/Daan645/b-rain
 
-Code Uitleg
+**Code Uitleg**
 
 We hebben HTML5, CSS en JavaScript gebruikt als de drie essentiële bouwstenen van onze webontwikkelingsprojecten om een rijke, interactieve en moderne webervaring te bieden aan onze gebruikers. Hier is waarom en hoe we deze technologieën hebben ingezet:
 
