@@ -33,11 +33,11 @@ containers.forEach(container => {
 // dark them function
 function themechange() {
     var body = document.body;
-    var section = document.querySelector('.algemeen');
+    // var section = document.querySelector('.algemeen');
     var header = document.querySelector('.theheader');
     var article = document.querySelector('.thearticle');
     body.classList.toggle("dark-mode-body");
-    section.classList.toggle("dark-mode-body");
+    //section.classList.toggle("dark-mode-body");//
     header.classList.toggle("dark-mode-head");
     article.classList.toggle("dark-mode-head");
  }
